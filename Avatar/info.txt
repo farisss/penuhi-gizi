@@ -1,0 +1,2 @@
+Untuk menambah avatar, masukan file gambar berekstensi *.jpeg, *.jpg, atau *.png
+Ukuran disarankan sebesar 100x120 pixel.

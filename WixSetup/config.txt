@@ -1,0 +1,6 @@
+;!@Install@!UTF-8!
+Title="Penuhi Gizi"
+BeginPrompt="Do you want to install the Penuhi Gizi game?"
+ExecuteFile="msiexec.exe"
+ExecuteParameters="/i PGSetup.msi"
+;!@InstallEnd@!

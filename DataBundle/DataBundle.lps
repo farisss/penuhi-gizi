@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="9"/>
+    <BuildModes Active="Release"/>
+    <Units Count="6">
+      <Unit0>
+        <Filename Value="DataBundle.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="DataBundle"/>
+        <EditorIndex Value="0"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="2"/>
+        <CursorPos X="63" Y="7"/>
+        <UsageCount Value="21"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="bundlecore.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="BundleCore"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="212"/>
+        <CursorPos X="1" Y="225"/>
+        <UsageCount Value="21"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="C:\fpc\fpsrc\rtl\win\wininc\struct.inc"/>
+        <EditorIndex Value="5"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="7258"/>
+        <CursorPos X="6" Y="7268"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="C:\fpc\fpsrc\rtl\win\wininc\ascdef.inc"/>
+        <EditorIndex Value="4"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="45"/>
+        <CursorPos X="10" Y="54"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="..\Shared\BundleStruct.pas"/>
+        <UnitName Value="BundleStruct"/>
+        <EditorIndex Value="2"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="21"/>
+        <CursorPos X="81" Y="17"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="..\Shared\BundleProcs.pas"/>
+        <UnitName Value="BundleProcs"/>
+        <EditorIndex Value="3"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="15"/>
+        <CursorPos X="9" Y="27"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit5>
+    </Units>
+    <General>
+      <ActiveWindowIndexAtStart Value="0"/>
+    </General>
+    <JumpHistory Count="11" HistoryIndex="10">
+      <Position1>
+        <Filename Value="bundlecore.pas"/>
+        <Caret Line="30" Column="78" TopLine="22"/>
+      </Position1>
+      <Position2>
+        <Filename Value="bundlecore.pas"/>
+        <Caret Line="225" Column="8" TopLine="50"/>
+      </Position2>
+      <Position3>
+        <Filename Value="C:\fpc\fpsrc\rtl\win\wininc\struct.inc"/>
+        <Caret Line="7283" Column="9" TopLine="7273"/>
+      </Position3>
+      <Position4>
+        <Filename Value="bundlecore.pas"/>
+        <Caret Line="58" Column="32" TopLine="50"/>
+      </Position4>
+      <Position5>
+        <Filename Value="bundlecore.pas"/>
+        <Caret Line="443" Column="16" TopLine="431"/>
+      </Position5>
+      <Position6>
+        <Filename Value="bundlecore.pas"/>
+        <Caret Line="7" Column="30" TopLine="1"/>
+      </Position6>
+      <Position7>
+        <Filename Value="bundlecore.pas"/>
+        <Caret Line="305" Column="15" TopLine="293"/>
+      </Position7>
+      <Position8>
+        <Filename Value="bundlecore.pas"/>
+        <Caret Line="486" Column="46" TopLine="477"/>
+      </Position8>
+      <Position9>
+        <Filename Value="bundlecore.pas"/>
+        <Caret Line="512" Column="23" TopLine="502"/>
+      </Position9>
+      <Position10>
+        <Filename Value="bundlecore.pas"/>
+        <Caret Line="444" Column="1" TopLine="219"/>
+      </Position10>
+      <Position11>
+        <Filename Value="bundlecore.pas"/>
+        <Caret Line="254" Column="1" TopLine="212"/>
+      </Position11>
+    </JumpHistory>
+  </ProjectSession>
+  <Debugging>
+    <BreakPoints Count="1">
+      <Item1>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="bundlecore.pas"/>
+        <Line Value="254"/>
+      </Item1>
+    </BreakPoints>
+  </Debugging>
+  <EditorMacros Count="0"/>
+</CONFIG>

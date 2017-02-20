@@ -1,0 +1,29 @@
+
+1 VERSIONINFO
+FILEVERSION 1,0,1,0
+PRODUCTVERSION 1,0,1,0
+FILEOS 0x4
+FILETYPE 0x1
+{
+BLOCK "StringFileInfo"
+{
+	BLOCK "042104E4"
+	{
+		VALUE "CompanyName", "Team Fajar Harapan"
+		VALUE "FileDescription", "Game Configurator"
+		VALUE "FileVersion", "1.0.1.00"
+		VALUE "InternalName", "Penuhi Gizi!"
+		VALUE "LegalCopyright", "Copyright © Team FH 2014-2015"
+		VALUE "LegalTrademarks", "Penuhi Gizi! is game by Revolven (11th generation)."
+		VALUE "OriginalFilename", "GameCfg.exe"
+		VALUE "ProductName", "Penuhi Gizi!"
+		VALUE "ProductVersion", "1.0"
+		VALUE "Comments", "Coded by Faris Khowarizmi"
+	}
+}
+
+BLOCK "VarFileInfo"
+{
+	VALUE "Translation", 0x0421 0x04E4
+}
+}

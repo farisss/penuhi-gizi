@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <PersonalityInfo>
+    <Option>
+      <Option Name="Personality">Default.Personality</Option>
+      <Option Name="ProjectType"></Option>
+      <Option Name="Version">1.0</Option>
+      <Option Name="GUID">{D94AB446-8D99-4F6F-9CEF-DA12817AC6D1}</Option>
+    </Option>
+  </PersonalityInfo>
+  <Default.Personality>
+    
+    
+    
+    <Projects>
+      <Projects Name="PenuhiGizi.exe">PenuhiGizi.bdsproj</Projects>
+      <Projects Name="DataBundle.dll">..\DataBundle\DataBundle.bdsproj</Projects>
+      <Projects Name="ZenGL_OGL.dll">..\ZenGL\ZenGL_OGL\src\Delphi\Delphi 7\ZenGL_OGL.bdsproj</Projects>
+      <Projects Name="ZenGL_D3D8.dll">..\ZenGL\ZenGL_DX8\src\Delphi\Delphi 7\ZenGL_D3D8.bdsproj</Projects>
+      <Projects Name="ZenGL_D3D9.dll">..\ZenGL\ZenGL_DX9\src\Delphi\Delphi 7\ZenGL_D3D9.bdsproj</Projects>
+      <Projects Name="Targets">PenuhiGizi.exe DataBundle.dll ZenGL_OGL.dll ZenGL_D3D8.dll ZenGL_D3D9.dll</Projects>
+    </Projects>
+    <Dependencies/>
+  </Default.Personality>
+</BorlandProject>

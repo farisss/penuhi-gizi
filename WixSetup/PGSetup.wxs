@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+    <Product Id="DD45C33B-7734-4F05-A189-C89E6ED88E07" Name="Penuhi Gizi!" Language="1057" Version="1.0" Manufacturer="Fajar Harapan" UpgradeCode="A178351F-D127-4418-BD9C-40C27B012BF2">
+        <Package Description="Penuhi Gizi! Setup" Comments="Penuhi Gizi! Setup" InstallerVersion="200" Compressed="yes" />
+        <Media Id="1" Cabinet="data.cab" EmbedCab="no" />
+        <Directory Id="TARGETDIR" Name="SourceDir">
+            <Directory Id="ProgramFilesFolder" Name="PFiles">
+                <Directory Id="PRODUCTDIR" Name="Game Penuhi Gizi">
+                    <Component Id="MainApp" DiskId="1" KeyPath="yes" Guid="8810d28e-9b35-4e22-b74c-b00dd38e3ee7">
+                        <CreateFolder>
+                            <Permission User="SYSTEM" GenericAll="yes" />
+                            <Permission User="Users" GenericAll="yes" />
+                            <Permission User="Everyone" GenericAll="yes" />
+                        </CreateFolder>
+                        <File Id="PENUHIGIZI.EXE" Name="PenuhiGizi.exe" Source="D:\PenuhiGizi\PenuhiGizi.exe">
+                            <Shortcut Id="desktopShortcut" Directory="DesktopFolder" Name="Game Penuhi Gizi!" WorkingDirectory="INSTALLDIR" Advertise="no" Icon="DesktopIcon.exe" IconIndex="0" />
+                            <Shortcut Id="ExeShortcut" Directory="ProgramMenuDir" Name="Play Penuhi Gizi!" Advertise="no" Icon="StartMenuIcon.exe" IconIndex="0" />
+                        </File>
+                    </Component>
+                    <Component Id="GameLibs" DiskId="1" KeyPath="yes" Guid="c7ccd549-1c29-4a52-b2b2-5354a2129d55">
+                        <File Id="DATABUNDLE.DLL" Name="DataBundle.dll" Source="D:\PenuhiGizi\DataBundle.dll" />
+                        <File Id="LIBOGG_0.DLL" Name="libogg-0.dll" Source="D:\PenuhiGizi\libogg-0.dll" />
+                        <File Id="LIBTHEORADEC_1.DLL" Name="libtheoradec-1.dll" Source="D:\PenuhiGizi\libtheoradec-1.dll" />
+                        <File Id="LIBVORBIS_0.DLL" Name="libvorbis-0.dll" Source="D:\PenuhiGizi\libvorbis-0.dll" />
+                        <File Id="LIBVORBISFILE_3.DLL" Name="libvorbisfile-3.dll" Source="D:\PenuhiGizi\libvorbisfile-3.dll" />
+                        <File Id="ZENGL_D3D8.DLL" Name="ZenGL_D3D8.dll" Source="D:\PenuhiGizi\ZenGL_D3D8.dll" />
+                        <File Id="ZENGL_D3D9.DLL" Name="ZenGL_D3D9.dll" Source="D:\PenuhiGizi\ZenGL_D3D9.dll" />
+                        <File Id="ZENGL_OGL.DLL" Name="ZenGL_OGL.dll" Source="D:\PenuhiGizi\ZenGL_OGL.dll" />
+                    </Component>
+                    <Component Id="GameData" DiskId="1" KeyPath="yes" Guid="8c6bc10b-bbcd-49df-ace2-97ff5c39017e">
+                        <File Id="BUNDRSC.KBD" Name="BundRsc.kbd" Source="D:\PenuhiGizi\BundRsc.kbd" />
+                        <File Id="BUNDSND.KBD" Name="BundSnd.kbd" Source="D:\PenuhiGizi\BundSnd.kbd" />
+                        <File Id="BUNDSPC.KBD" Name="BundSpc.kbd" Source="D:\PenuhiGizi\BundSpc.kbd" />
+                        <File Id="GSINFO.GSD" Name="GsInfo.gsd" Source="D:\PenuhiGizi\GsInfo.gsd" />
+                        <File Id="PLAYERLIST.TXT" Name="PlayerList.txt" Source="D:\PenuhiGizi\PlayerList.txt" />
+                        <File Id="PENUHIGIZI.CFG" Name="PenuhiGizi.cfg" Source="D:\PenuhiGizi\Setup\PenuhiGizi.cfg" />
+                    </Component>
+                    <Component Id="GameConfig" DiskId="1" KeyPath="yes" Guid="65bb3478-dd39-4408-88d2-2fb3d39800c8">
+                        <File Id="GAMECFG.DAT" Name="GameCfg.dat" Source="D:\PenuhiGizi\GameCfg.dat" />
+                        <File Id="GAMECFG.EXE" Name="GameCfg.exe" Source="D:\PenuhiGizi\GameCfg.exe" />
+                        <File Id="PGPREF.INI" Name="PgPref.ini" Source="..\PgPref.ini" />
+                    </Component>
+                    <Component Id="Readme" DiskId="1" KeyPath="yes" Guid="3DA67FD6-15B1-4CC3-8CEA-8129876B8A5A">
+                        <File Id="README_ID.HTML" Name="readme-id.html" Source="D:\PenuhiGizi\readme-id.html" />
+                    </Component>
+                    <Directory Name="Avatar" Id="AVATAR">
+                        <Component Id="Avatars" DiskId="1" KeyPath="yes" Guid="22275efd-6550-4bbe-9ece-097a51641bba">
+                            <File Id="AVATAR1.JPG" Name="avatar1.jpg" Source="D:\PenuhiGizi\Avatar\avatar1.jpg" />
+                            <File Id="AVATAR2.JPG" Name="avatar2.jpg" Source="D:\PenuhiGizi\Avatar\avatar2.jpg" />
+                            <File Id="AVATAR3.JPG" Name="avatar3.jpg" Source="D:\PenuhiGizi\Avatar\avatar3.jpg" />
+                            <File Id="AVATAR4.JPG" Name="avatar4.jpg" Source="D:\PenuhiGizi\Avatar\avatar4.jpg" />
+                            <File Id="AVATAR5.JPG" Name="avatar5.jpg" Source="D:\PenuhiGizi\Avatar\avatar5.jpg" />
+                            <File Id="AVATAR6.JPG" Name="avatar6.jpg" Source="D:\PenuhiGizi\Avatar\avatar6.jpg" />
+                            <File Id="AVATAR7.JPG" Name="avatar7.jpg" Source="D:\PenuhiGizi\Avatar\avatar7.jpg" />
+                            <File Id="AVATAR8.JPG" Name="avatar8.jpg" Source="D:\PenuhiGizi\Avatar\avatar8.jpg" />
+                            <File Id="AVATAR9.JPG" Name="avatar9.jpg" Source="D:\PenuhiGizi\Avatar\avatar9.jpg" />
+                            <File Id="INFO.TXT" Name="info.txt" Source="D:\PenuhiGizi\Avatar\info.txt" />
+                        </Component>
+                    </Directory>
+                    <Directory Name="Geometry" Id="GEOMETRY">
+                        <Component Id="Geometries" DiskId="1" KeyPath="yes" Guid="63668f2f-9b63-40ce-b242-032299fe2c30">
+                            <File Id="BOARDGM.GPI" Name="BoardGm.gpi" Source="D:\PenuhiGizi\Geometry\BoardGm.gpi" />
+                            <File Id="CHNCGM.GPI" Name="ChncGm.gpi" Source="D:\PenuhiGizi\Geometry\ChncGm.gpi" />
+                            <File Id="CUSTDGM.GPI" Name="CustdGm.gpi" Source="D:\PenuhiGizi\Geometry\CustdGm.gpi" />
+                            <File Id="DADUGM.GPI" Name="DaduGm.gpi" Source="D:\PenuhiGizi\Geometry\DaduGm.gpi" />
+                            <File Id="FOODGM.GPI" Name="FoodGm.gpi" Source="D:\PenuhiGizi\Geometry\FoodGm.gpi" />
+                            <File Id="HELPGM.GPI" Name="HelpGm.gpi" Source="D:\PenuhiGizi\Geometry\HelpGm.gpi" />
+                            <File Id="JACKGM.GPI" Name="JackGm.gpi" Source="D:\PenuhiGizi\Geometry\JackGm.gpi" />
+                            <File Id="MENUGM.GPI" Name="MenuGm.gpi" Source="D:\PenuhiGizi\Geometry\MenuGm.gpi" />
+                            <File Id="PLAYCGM.GPI" Name="PlaycGm.gpi" Source="D:\PenuhiGizi\Geometry\PlaycGm.gpi" />
+                            <File Id="POSTPGM.GPI" Name="PostpGm.gpi" Source="D:\PenuhiGizi\Geometry\PostpGm.gpi" />
+                        </Component>
+                    </Directory>
+                </Directory>
+                <Directory Id="DesktopFolder" />
+                <Directory Id="ProgramMenuFolder">
+                    <Directory Id="ProgramMenuDir" Name="Penuhi Gizi! Game">
+                        <Component Id="StartMenuShortcuts" Guid="B1FEA159-12D4-44BD-AA46-7090704B000D">
+                            <RemoveFolder Id="ProgramMenuDir" On="uninstall" />
+                            <RegistryValue Root="HKCU" Key="Software\[Manufacturer]\[ProductName]" Type="string" Value="" />
+                            <Shortcut Id="UninstallProduct" Name="Uninstall Penuhi Gizi!" Description="Uninstalls the Penuhi Gizi! game" Target="[System64Folder]msiexec.exe" Arguments="/x [ProductCode]" />
+                        </Component>
+                    </Directory>
+                </Directory>
+            </Directory>
+        </Directory>
+        <Feature Id="DefaultFeature" Title="Main Feature" Level="1">
+            <ComponentRef Id="MainApp" />
+            <ComponentRef Id="GameLibs" />
+            <ComponentRef Id="GameData" />
+            <ComponentRef Id="GameConfig" />
+            <ComponentRef Id="Readme" />
+            <ComponentRef Id="Avatars" />
+            <ComponentRef Id="Geometries" />
+            <ComponentRef Id="StartMenuShortcuts" />
+        </Feature>
+        <UI Id="FarisModUI">
+            <UIRef Id="WixUI_InstallDir" />
+            <UIRef Id="WixUI_ErrorProgressText" />
+            <Publish Dialog="WelcomeDlg" Control="Next" Event="NewDialog" Value="InstallDirDlg" Order="3">1</Publish>
+            <!-- skip the page on the way back too -->
+            <Publish Dialog="InstallDirDlg" Control="Back" Event="NewDialog" Value="WelcomeDlg" Order="3">1</Publish>
+        </UI>
+        <Property Id="WIXUI_INSTALLDIR" Value="PRODUCTDIR" />
+        <WixVariable Id="WixUIBannerBmp" Value="TopImage256.bmp" />
+        <WixVariable Id="WixUIDialogBmp" Value="SideImage.bmp" />
+        <Icon Id="DesktopIcon.exe" SourceFile="D:\PenuhiGizi\PenuhiGizi.exe" />
+        <Icon Id="StartMenuIcon.exe" SourceFile="D:\PenuhiGizi\PenuhiGizi.exe" />
+        <UI />
+    </Product>
+</Wix>

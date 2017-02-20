@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2015/02/08 14:56:00.500.bdsgroup,D:\Dokumen\Borland Studio Projects\ProjectGroup1.bdsgroup=D:\PenuhiGizi\MainApp\PenuhiGizi.bdsgroup</Transaction>
+  </Transactions>
+  <Default.Personality>
+    <Projects ActiveProject="PenuhiGizi.exe"/>
+  </Default.Personality>
+</BorlandProject>
